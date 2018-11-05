@@ -16,3 +16,7 @@ Project is written with the assumption, to use it as library. In tests/Services/
  - So, There are no any "Frontend" elements like handling API requests etc. or any transformation form json to the BoardCards, because data can be received in many ways, so for example can be written some Adapters later, which will handle with json - as separated functionality.
 - I know, that, in not all places are proper phpDoc comment added. So please be forgiving.
 - Are added just 2 tests. Because especially the second one generally use the whole logic to return expected list. I know, that I should write the tests also for other parts, like Strategies, all factories etc.
+
+3. To Run It:
+- In container or other environment with PHP 7.2 and composer installed, execute "composer install"
+- Then tests should work with: "./vendor/bin/phpunit" 
